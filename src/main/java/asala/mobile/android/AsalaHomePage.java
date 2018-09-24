@@ -109,4 +109,328 @@ public class AsalaHomePage extends AsalaPageBase {
 
 
 	}
+	
+	public class AlreemPlaza  {
+
+		@AndroidFindBy(id = "")
+		WebElement MallBt;
+
+		@AndroidFindBy(id = "")
+		WebElement twitterBt;
+
+		@AndroidFindBy(id = "")
+		WebElement instgramBt;
+
+		@AndroidFindBy(id = "")
+		WebElement facebokkBt;
+
+		@AndroidFindBy(id = "")
+		WebElement websiteBt;
+
+		public void clickMall () {
+			clickBt(MallBt);
+		}
+
+		public void clickTwitter () {
+			clickBt(twitterBt);
+		}
+
+		public void clickInstgram () {
+			clickBt(instgramBt);
+		}
+
+		public void clickWebsite () {
+			clickBt(websiteBt);
+		}
+
+
+	}
+	
+	public class AseerMall  {
+
+		@AndroidFindBy(id = "")
+		WebElement MallBt;
+
+		@AndroidFindBy(id = "")
+		WebElement twitterBt;
+
+		@AndroidFindBy(id = "")
+		WebElement instgramBt;
+
+		@AndroidFindBy(id = "")
+		WebElement facebokkBt;
+
+		@AndroidFindBy(id = "")
+		WebElement websiteBt;
+
+		public void clickMall () {
+			clickBt(MallBt);
+		}
+
+		public void clickTwitter () {
+			clickBt(twitterBt);
+		}
+
+		public void clickInstgram () {
+			clickBt(instgramBt);
+		}
+
+		public void clickWebsite () {
+			clickBt(websiteBt);
+		}
+
+
+	}
+	
+	public class DareenMall  {
+
+		@AndroidFindBy(id = "")
+		WebElement MallBt;
+
+		@AndroidFindBy(id = "")
+		WebElement twitterBt;
+
+		@AndroidFindBy(id = "")
+		WebElement instgramBt;
+
+		@AndroidFindBy(id = "")
+		WebElement facebokkBt;
+
+		@AndroidFindBy(id = "")
+		WebElement websiteBt;
+
+		public void clickMall () {
+			clickBt(MallBt);
+		}
+
+		public void clickTwitter () {
+			clickBt(twitterBt);
+		}
+
+		public void clickInstgram () {
+			clickBt(instgramBt);
+		}
+
+		public void clickWebsite () {
+			clickBt(websiteBt);
+		}
+
+
+	}
+	
+	public class KadiMall  {
+
+		@AndroidFindBy(id = "")
+		WebElement MallBt;
+
+		@AndroidFindBy(id = "")
+		WebElement twitterBt;
+
+		@AndroidFindBy(id = "")
+		WebElement instgramBt;
+
+		@AndroidFindBy(id = "")
+		WebElement facebokkBt;
+
+		@AndroidFindBy(id = "")
+		WebElement websiteBt;
+
+		public void clickMall () {
+			clickBt(MallBt);
+		}
+
+		public void clickTwitter () {
+			clickBt(twitterBt);
+		}
+
+		public void clickInstgram () {
+			clickBt(instgramBt);
+		}
+
+		public void clickWebsite () {
+			clickBt(websiteBt);
+		}
+
+
+	}
+	
+	public class AlmanarMall  {
+
+		@AndroidFindBy(id = "")
+		WebElement MallBt;
+
+		@AndroidFindBy(id = "")
+		WebElement twitterBt;
+
+		@AndroidFindBy(id = "")
+		WebElement instgramBt;
+
+		@AndroidFindBy(id = "")
+		WebElement facebokkBt;
+
+		@AndroidFindBy(id = "")
+		WebElement websiteBt;
+
+		public void clickMall () {
+			clickBt(MallBt);
+		}
+
+		public void clickTwitter () {
+			clickBt(twitterBt);
+		}
+
+		public void clickInstgram () {
+			clickBt(instgramBt);
+		}
+
+		public void clickWebsite () {
+			clickBt(websiteBt);
+		}
+
+
+	}
+	
+	public class AmowjMall  {
+
+		@AndroidFindBy(id = "")
+		WebElement MallBt;
+
+		@AndroidFindBy(id = "")
+		WebElement twitterBt;
+
+		@AndroidFindBy(id = "")
+		WebElement instgramBt;
+
+		@AndroidFindBy(id = "")
+		WebElement facebokkBt;
+
+		@AndroidFindBy(id = "")
+		WebElement websiteBt;
+
+		public void clickMall () {
+			clickBt(MallBt);
+		}
+
+		public void clickTwitter () {
+			clickBt(twitterBt);
+		}
+
+		public void clickInstgram () {
+			clickBt(instgramBt);
+		}
+
+		public void clickWebsite () {
+			clickBt(websiteBt);
+		}
+
+
+	}
+	
+	public class panoramaMall  {
+
+		@AndroidFindBy(id = "")
+		WebElement MallBt;
+
+		@AndroidFindBy(id = "")
+		WebElement twitterBt;
+
+		@AndroidFindBy(id = "")
+		WebElement instgramBt;
+
+		@AndroidFindBy(id = "")
+		WebElement facebokkBt;
+
+		@AndroidFindBy(id = "")
+		WebElement websiteBt;
+
+		public void clickMall () {
+			clickBt(MallBt);
+		}
+
+		public void clickTwitter () {
+			clickBt(twitterBt);
+		}
+
+		public void clickInstgram () {
+			clickBt(instgramBt);
+		}
+
+		public void clickWebsite () {
+			clickBt(websiteBt);
+		}
+
+
+	}
+	
+	public class HayatMall  {
+
+		@AndroidFindBy(id = "")
+		WebElement MallBt;
+
+		@AndroidFindBy(id = "")
+		WebElement twitterBt;
+
+		@AndroidFindBy(id = "")
+		WebElement instgramBt;
+
+		@AndroidFindBy(id = "")
+		WebElement facebokkBt;
+
+		@AndroidFindBy(id = "")
+		WebElement websiteBt;
+
+		public void clickMall () {
+			clickBt(MallBt);
+		}
+
+		public void clickTwitter () {
+			clickBt(twitterBt);
+		}
+
+		public void clickInstgram () {
+			clickBt(instgramBt);
+		}
+
+		public void clickWebsite () {
+			clickBt(websiteBt);
+		}
+
+
+	}
+	
+	public class AzaanPlazaMall  {
+
+		@AndroidFindBy(id = "")
+		WebElement MallBt;
+
+		@AndroidFindBy(id = "")
+		WebElement twitterBt;
+
+		@AndroidFindBy(id = "")
+		WebElement instgramBt;
+
+		@AndroidFindBy(id = "")
+		WebElement facebokkBt;
+
+		@AndroidFindBy(id = "")
+		WebElement websiteBt;
+
+		public void clickMall () {
+			clickBt(MallBt);
+		}
+
+		public void clickTwitter () {
+			clickBt(twitterBt);
+		}
+
+		public void clickInstgram () {
+			clickBt(instgramBt);
+		}
+
+		public void clickWebsite () {
+			clickBt(websiteBt);
+		}
+
+
+	}
 }
