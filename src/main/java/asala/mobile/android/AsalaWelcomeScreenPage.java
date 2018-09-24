@@ -12,17 +12,21 @@ public class AsalaWelcomeScreenPage extends AsalaPageBase {
 		// TODO Auto-generated constructor stub
 	}
 
+	// welcome screen elements
 	@AndroidFindBy(id = "")
 	WebElement exitBt;
 
 	@AndroidFindBy(id = "")
 	WebElement getStartBt;
+	
 
+	// start button from welcome screen
 	public void clickStartBt () {
 
 		clickBt(getStartBt);
 	}
 
+	// click exit to skip screen 
 	public void clickExitBt () {
 
 		clickBt(exitBt);

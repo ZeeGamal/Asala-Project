@@ -19,11 +19,13 @@ public class AsalaPageBase {
 
 	}
 
+	// function for clicks
 	protected static void clickBt(WebElement button) {
 
 		button.click();
 	}
 
+	// function for set text in filed 
 	protected static void setTxtElment(WebElement textElement , String value) {
 
 

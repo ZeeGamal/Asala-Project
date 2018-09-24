@@ -12,6 +12,7 @@ public class AsalaProfilePageForFirstTime extends AsalaPageBase {
 		// TODO Auto-generated constructor stub
 	}
 	
+	// profile page screen for first time 
 	@AndroidFindBy(id = "")
 	WebElement backBt;
 	
@@ -36,10 +37,12 @@ public class AsalaProfilePageForFirstTime extends AsalaPageBase {
 	@AndroidFindBy(id = "")
 	WebElement dateOfBirth;
 	
+	// back user to previous screen
 	public void clickBack () {
 		clickBt(backBt);
 	}
 	
+	// click to save data
 	public void clickSave () {
 		clickBt(saveBt);
 	}

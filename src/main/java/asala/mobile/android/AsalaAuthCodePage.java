@@ -15,6 +15,7 @@ public class AsalaAuthCodePage extends AsalaPageBase {
 	@AndroidFindBy(id = "")
 	WebElement exitBt;
 	
+	// this element for 4 text to add authentication code
 	@AndroidFindBy(id = "")
 	WebElement firsttxt;
 	
@@ -27,6 +28,7 @@ public class AsalaAuthCodePage extends AsalaPageBase {
 	@AndroidFindBy(id = "")
 	WebElement forthTxt;
 	
+	// this element for number keyboard 
 	@AndroidFindBy(id = "")
 	WebElement oneBt;
 	
@@ -63,9 +65,12 @@ public class AsalaAuthCodePage extends AsalaPageBase {
 	@AndroidFindBy(id = "")
 	WebElement clearBt;
 	
+	// this element for resends new code 
 	@AndroidFindBy(id = "")
 	WebElement resendCodeBt;
 	
+	
+	// this function to add code 
 	public void addcode (String first , String seconde , String third , String forth) {
 		
 		setTxtElment(firsttxt, first);
@@ -75,11 +80,13 @@ public class AsalaAuthCodePage extends AsalaPageBase {
 		
 	}
 	
+	// to resends new code 
 	public void clickResendCode() {
 		
 		clickBt(resendCodeBt);
 	}
 	
+	// this function to click on numbers in keyboard
 	public void oneBtt () {
 
 		clickBt(oneBt);
@@ -135,6 +142,7 @@ public class AsalaAuthCodePage extends AsalaPageBase {
 		clickBt(clearBt);
 	}
 	
+	// to make exit or back 
 	public void clickExitBt () {
 
 		clickBt(exitBt);

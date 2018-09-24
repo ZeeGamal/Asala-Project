@@ -13,6 +13,7 @@ public class AsalaLoginPage extends AsalaPageBase {
 
 	}
 
+	// login elements 
 	@AndroidFindBy(id = "")
 	WebElement exitBt;
 
@@ -33,12 +34,14 @@ public class AsalaLoginPage extends AsalaPageBase {
 		clickBt(exitBt);
 	}
 
+	// to make login 
 	public void login(String phone) {
 
 		setTxtElment(phonetxt, phone);
 		clickBt(loginBt);
 	}
 	
+	// to skip login 
 	public void clickSkip () {
 		
 		clickBt(skipBt);
