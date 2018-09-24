@@ -42,34 +42,38 @@ public class AsalaHomePage extends AsalaPageBase {
 	public class AlAndalusMall {
 
 		@AndroidFindBy(id = "")
-		WebElement MallBt;
+		WebElement alAndalusMallBt;
 
 		@AndroidFindBy(id = "")
-		WebElement twitterBt;
+		WebElement alAndalusMallTwitterBt;
 
 		@AndroidFindBy(id = "")
-		WebElement instgramBt;
+		WebElement alAndalusMallInstgramBt;
 
 		@AndroidFindBy(id = "")
-		WebElement facebokkBt;
+		WebElement alAndalusMallFacebookkBt;
 
 		@AndroidFindBy(id = "")
-		WebElement websiteBt;
+		WebElement alAndalusMallWebsiteBt;
 
 		public void clickMall () {
-			clickBt(MallBt);
+			clickBt(alAndalusMallBt);
 		}
 
 		public void clickTwitter () {
-			clickBt(twitterBt);
+			clickBt(alAndalusMallTwitterBt);
 		}
 
 		public void clickInstgram () {
-			clickBt(instgramBt);
+			clickBt(alAndalusMallInstgramBt);
+		}
+		
+		public void clickFaceBook () {
+			clickBt(alAndalusMallFacebookkBt);
 		}
 
 		public void clickWebsite () {
-			clickBt(websiteBt);
+			clickBt(alAndalusMallWebsiteBt);
 		}
 
 	}
@@ -77,70 +81,77 @@ public class AsalaHomePage extends AsalaPageBase {
 	public class MojPlazaMall  {
 
 		@AndroidFindBy(id = "")
-		WebElement MallBt;
+		WebElement mojPlazaMallBt;
 
 		@AndroidFindBy(id = "")
-		WebElement twitterBt;
+		WebElement mojPlazaMallTwitterBt;
 
 		@AndroidFindBy(id = "")
-		WebElement instgramBt;
+		WebElement mojPlazaMallInstgramBt;
 
 		@AndroidFindBy(id = "")
-		WebElement facebokkBt;
+		WebElement mojPlazaMallFacebookkBt;
 
 		@AndroidFindBy(id = "")
-		WebElement websiteBt;
+		WebElement mojPlazaMallWebsiteBt;
 
 		public void clickMall () {
-			clickBt(MallBt);
+			clickBt(mojPlazaMallBt);
 		}
 
 		public void clickTwitter () {
-			clickBt(twitterBt);
+			clickBt(mojPlazaMallTwitterBt);
 		}
 
 		public void clickInstgram () {
-			clickBt(instgramBt);
+			clickBt(mojPlazaMallInstgramBt);
+		}
+		
+		public void clickFaceBook () {
+			clickBt(mojPlazaMallFacebookkBt);
 		}
 
 		public void clickWebsite () {
-			clickBt(websiteBt);
+			clickBt(mojPlazaMallWebsiteBt);
 		}
-
 
 	}
 	
 	public class AlreemPlaza  {
 
 		@AndroidFindBy(id = "")
-		WebElement MallBt;
+		WebElement alreemPlazaMallBt;
 
 		@AndroidFindBy(id = "")
-		WebElement twitterBt;
+		WebElement alreemPlazaMallTwitterBt;
 
 		@AndroidFindBy(id = "")
-		WebElement instgramBt;
+		WebElement alreemPlazaMallInstgramBt;
 
 		@AndroidFindBy(id = "")
-		WebElement facebokkBt;
+		WebElement alreemPlazaMallFacebookkBt;
 
 		@AndroidFindBy(id = "")
-		WebElement websiteBt;
+		WebElement alreemPlazaMallWebsiteBt;
 
 		public void clickMall () {
-			clickBt(MallBt);
+			clickBt(alreemPlazaMallBt);
 		}
 
 		public void clickTwitter () {
-			clickBt(twitterBt);
+			clickBt(alreemPlazaMallTwitterBt);
 		}
 
 		public void clickInstgram () {
-			clickBt(instgramBt);
+			clickBt(alreemPlazaMallInstgramBt);
+		}
+		
+		public void clickFaceBook () {
+			clickBt(alreemPlazaMallFacebookkBt);
 		}
 
 		public void clickWebsite () {
-			clickBt(websiteBt);
+			clickBt(alreemPlazaMallWebsiteBt);
 		}
 
 
@@ -149,70 +160,77 @@ public class AsalaHomePage extends AsalaPageBase {
 	public class AseerMall  {
 
 		@AndroidFindBy(id = "")
-		WebElement MallBt;
+		WebElement asserMallBt;
 
 		@AndroidFindBy(id = "")
-		WebElement twitterBt;
+		WebElement asserMallTwitterBt;
 
 		@AndroidFindBy(id = "")
-		WebElement instgramBt;
+		WebElement asserMallInstgramBt;
 
 		@AndroidFindBy(id = "")
-		WebElement facebokkBt;
+		WebElement asserMallFacebookkBt;
 
 		@AndroidFindBy(id = "")
-		WebElement websiteBt;
+		WebElement asserMallWebsiteBt;
 
 		public void clickMall () {
-			clickBt(MallBt);
+			clickBt(asserMallBt);
 		}
 
 		public void clickTwitter () {
-			clickBt(twitterBt);
+			clickBt(asserMallTwitterBt);
 		}
 
 		public void clickInstgram () {
-			clickBt(instgramBt);
+			clickBt(asserMallInstgramBt);
+		}
+		
+		public void clickFaceBook () {
+			clickBt(asserMallFacebookkBt);
 		}
 
 		public void clickWebsite () {
-			clickBt(websiteBt);
+			clickBt(asserMallWebsiteBt);
 		}
-
 
 	}
 	
 	public class DareenMall  {
 
 		@AndroidFindBy(id = "")
-		WebElement MallBt;
+		WebElement dareenMallBt;
 
 		@AndroidFindBy(id = "")
-		WebElement twitterBt;
+		WebElement dareenMallTwitterBt;
 
 		@AndroidFindBy(id = "")
-		WebElement instgramBt;
+		WebElement dareenMallInstgramBt;
 
 		@AndroidFindBy(id = "")
-		WebElement facebokkBt;
+		WebElement dareenMallFacebookkBt;
 
 		@AndroidFindBy(id = "")
-		WebElement websiteBt;
+		WebElement dareenMallWebsiteBt;
 
 		public void clickMall () {
-			clickBt(MallBt);
+			clickBt(dareenMallBt);
 		}
 
 		public void clickTwitter () {
-			clickBt(twitterBt);
+			clickBt(dareenMallTwitterBt);
 		}
 
 		public void clickInstgram () {
-			clickBt(instgramBt);
+			clickBt(dareenMallInstgramBt);
+		}
+		
+		public void clickFaceBook () {
+			clickBt(dareenMallFacebookkBt);
 		}
 
 		public void clickWebsite () {
-			clickBt(websiteBt);
+			clickBt(dareenMallWebsiteBt);
 		}
 
 
@@ -221,34 +239,38 @@ public class AsalaHomePage extends AsalaPageBase {
 	public class KadiMall  {
 
 		@AndroidFindBy(id = "")
-		WebElement MallBt;
+		WebElement kadiMallBt;
 
 		@AndroidFindBy(id = "")
-		WebElement twitterBt;
+		WebElement kadiMallTwitterBt;
 
 		@AndroidFindBy(id = "")
-		WebElement instgramBt;
+		WebElement kadiMallInstgramBt;
 
 		@AndroidFindBy(id = "")
-		WebElement facebokkBt;
+		WebElement kadiMallFacebookkBt;
 
 		@AndroidFindBy(id = "")
-		WebElement websiteBt;
+		WebElement kadiMallWebsiteBt;
 
 		public void clickMall () {
-			clickBt(MallBt);
+			clickBt(kadiMallBt);
 		}
 
 		public void clickTwitter () {
-			clickBt(twitterBt);
+			clickBt(kadiMallTwitterBt);
 		}
 
 		public void clickInstgram () {
-			clickBt(instgramBt);
+			clickBt(kadiMallInstgramBt);
+		}
+		
+		public void clickFaceBook () {
+			clickBt(kadiMallFacebookkBt);
 		}
 
 		public void clickWebsite () {
-			clickBt(websiteBt);
+			clickBt(kadiMallWebsiteBt);
 		}
 
 
@@ -257,34 +279,38 @@ public class AsalaHomePage extends AsalaPageBase {
 	public class AlmanarMall  {
 
 		@AndroidFindBy(id = "")
-		WebElement MallBt;
+		WebElement almanarMallBt;
 
 		@AndroidFindBy(id = "")
-		WebElement twitterBt;
+		WebElement almanarMallTwitterBt;
 
 		@AndroidFindBy(id = "")
-		WebElement instgramBt;
+		WebElement almanarMallInstgramBt;
 
 		@AndroidFindBy(id = "")
-		WebElement facebokkBt;
+		WebElement almanarMallFacebookkBt;
 
 		@AndroidFindBy(id = "")
-		WebElement websiteBt;
+		WebElement almanarMallWebsiteBt;
 
 		public void clickMall () {
-			clickBt(MallBt);
+			clickBt(almanarMallBt);
 		}
 
 		public void clickTwitter () {
-			clickBt(twitterBt);
+			clickBt(almanarMallTwitterBt);
 		}
 
 		public void clickInstgram () {
-			clickBt(instgramBt);
+			clickBt(almanarMallInstgramBt);
+		}
+		
+		public void clickFaceBook () {
+			clickBt(almanarMallFacebookkBt);
 		}
 
 		public void clickWebsite () {
-			clickBt(websiteBt);
+			clickBt(almanarMallWebsiteBt);
 		}
 
 
@@ -293,70 +319,78 @@ public class AsalaHomePage extends AsalaPageBase {
 	public class AmowjMall  {
 
 		@AndroidFindBy(id = "")
-		WebElement MallBt;
+		WebElement amowjMallBt;
 
 		@AndroidFindBy(id = "")
-		WebElement twitterBt;
+		WebElement amowjMallTwitterBt;
 
 		@AndroidFindBy(id = "")
-		WebElement instgramBt;
+		WebElement amowjMallInstgramBt;
 
 		@AndroidFindBy(id = "")
-		WebElement facebokkBt;
+		WebElement amowjMallFacebookkBt;
 
 		@AndroidFindBy(id = "")
-		WebElement websiteBt;
+		WebElement amowjMallWebsiteBt;
 
 		public void clickMall () {
-			clickBt(MallBt);
+			clickBt(amowjMallBt);
 		}
 
 		public void clickTwitter () {
-			clickBt(twitterBt);
+			clickBt(amowjMallTwitterBt);
 		}
 
 		public void clickInstgram () {
-			clickBt(instgramBt);
+			clickBt(amowjMallInstgramBt);
+		}
+		
+		public void clickFaceBook () {
+			clickBt(amowjMallFacebookkBt);
 		}
 
 		public void clickWebsite () {
-			clickBt(websiteBt);
+			clickBt(amowjMallWebsiteBt);
 		}
 
 
 	}
 	
-	public class panoramaMall  {
+	public class PanoramaMall  {
 
 		@AndroidFindBy(id = "")
-		WebElement MallBt;
+		WebElement panoramaMallBt;
 
 		@AndroidFindBy(id = "")
-		WebElement twitterBt;
+		WebElement panoramaMallTwitterBt;
 
 		@AndroidFindBy(id = "")
-		WebElement instgramBt;
+		WebElement panoramaMallInstgramBt;
 
 		@AndroidFindBy(id = "")
-		WebElement facebokkBt;
+		WebElement panoramaMallFacebookkBt;
 
 		@AndroidFindBy(id = "")
-		WebElement websiteBt;
+		WebElement panoramaMallWebsiteBt;
 
 		public void clickMall () {
-			clickBt(MallBt);
+			clickBt(panoramaMallBt);
 		}
 
 		public void clickTwitter () {
-			clickBt(twitterBt);
+			clickBt(panoramaMallTwitterBt);
 		}
 
 		public void clickInstgram () {
-			clickBt(instgramBt);
+			clickBt(panoramaMallInstgramBt);
+		}
+		
+		public void clickFaceBook () {
+			clickBt(panoramaMallFacebookkBt);
 		}
 
 		public void clickWebsite () {
-			clickBt(websiteBt);
+			clickBt(panoramaMallWebsiteBt);
 		}
 
 
@@ -365,34 +399,38 @@ public class AsalaHomePage extends AsalaPageBase {
 	public class HayatMall  {
 
 		@AndroidFindBy(id = "")
-		WebElement MallBt;
+		WebElement hayatMallBt;
 
 		@AndroidFindBy(id = "")
-		WebElement twitterBt;
+		WebElement hayatMallTwitterBt;
 
 		@AndroidFindBy(id = "")
-		WebElement instgramBt;
+		WebElement hayatMallInstgramBt;
 
 		@AndroidFindBy(id = "")
-		WebElement facebokkBt;
+		WebElement hayatMallFacebookkBt;
 
 		@AndroidFindBy(id = "")
-		WebElement websiteBt;
+		WebElement hayatMallWebsiteBt;
 
 		public void clickMall () {
-			clickBt(MallBt);
+			clickBt(hayatMallBt);
 		}
 
 		public void clickTwitter () {
-			clickBt(twitterBt);
+			clickBt(hayatMallTwitterBt);
 		}
 
 		public void clickInstgram () {
-			clickBt(instgramBt);
+			clickBt(hayatMallInstgramBt);
+		}
+		
+		public void clickFaceBook () {
+			clickBt(hayatMallFacebookkBt);
 		}
 
 		public void clickWebsite () {
-			clickBt(websiteBt);
+			clickBt(hayatMallWebsiteBt);
 		}
 
 
@@ -401,36 +439,38 @@ public class AsalaHomePage extends AsalaPageBase {
 	public class AzaanPlazaMall  {
 
 		@AndroidFindBy(id = "")
-		WebElement MallBt;
+		WebElement azaanPlazaMallBt;
 
 		@AndroidFindBy(id = "")
-		WebElement twitterBt;
+		WebElement azaanPlazaMallTwitterBt;
 
 		@AndroidFindBy(id = "")
-		WebElement instgramBt;
+		WebElement azaanPlazaMallInstgramBt;
 
 		@AndroidFindBy(id = "")
-		WebElement facebokkBt;
+		WebElement azaanPlazaMallFacebookkBt;
 
 		@AndroidFindBy(id = "")
-		WebElement websiteBt;
+		WebElement azaanPlazaMallWebsiteBt;
 
 		public void clickMall () {
-			clickBt(MallBt);
+			clickBt(azaanPlazaMallBt);
 		}
 
 		public void clickTwitter () {
-			clickBt(twitterBt);
+			clickBt(azaanPlazaMallTwitterBt);
 		}
 
 		public void clickInstgram () {
-			clickBt(instgramBt);
+			clickBt(azaanPlazaMallInstgramBt);
+		}
+		
+		public void clickFaceBook () {
+			clickBt(azaanPlazaMallFacebookkBt);
 		}
 
 		public void clickWebsite () {
-			clickBt(websiteBt);
+			clickBt(azaanPlazaMallWebsiteBt);
 		}
-
-
 	}
 }
