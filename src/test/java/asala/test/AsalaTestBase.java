@@ -35,7 +35,6 @@ public class AsalaTestBase {
 		
 		driver = new AndroidDriver<WebElement>(new URL("http://localhost:4723/wd/hub"),object);	
 
-		
 	}
 
 	@AfterSuite
