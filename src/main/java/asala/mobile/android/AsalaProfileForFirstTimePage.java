@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class AsalaProfilePageForFirstTime extends AsalaPageBase {
+public class AsalaProfileForFirstTimePage extends AsalaPageBase {
 
-	public AsalaProfilePageForFirstTime(AppiumDriver<WebElement> driver) {
+	public AsalaProfileForFirstTimePage(AppiumDriver<WebElement> driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}

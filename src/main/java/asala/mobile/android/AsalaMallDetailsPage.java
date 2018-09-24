@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
-public class AsalaMallDetalis extends AsalaPageBase {
+public class AsalaMallDetailsPage extends AsalaPageBase {
 
-	public AsalaMallDetalis(AppiumDriver<WebElement> driver) {
+	public AsalaMallDetailsPage(AppiumDriver<WebElement> driver) {
 		super(driver);
 	}
 	
@@ -22,16 +22,16 @@ public class AsalaMallDetalis extends AsalaPageBase {
 	WebElement mallNameTxt;
 	
 	@AndroidFindBy(id = "")
-	WebElement storeBt;
+	WebElement storeTapBt;
 	
 	@AndroidFindBy(id = "")
-	WebElement offersBt;
+	WebElement offersTapBt;
 	
 	@AndroidFindBy(id = "")
-	WebElement eventsBt;
+	WebElement eventsTapBt;
 	
 	@AndroidFindBy(id = "")
-	WebElement mapBt;
+	WebElement mapTapBt;
 	
 	// search text box for searching 
 	public void searchInMallContent(String searchValue) {
@@ -44,22 +44,22 @@ public class AsalaMallDetalis extends AsalaPageBase {
 	
 	// to view list of store
 	public void clickStoreTab () {
-		clickBt(storeBt);
+		clickBt(storeTapBt);
 	}
 	
 	// to view list of events
 	public void clickEventTab () {
-		clickBt(eventsBt);
+		clickBt(eventsTapBt);
 	}
 	
 	// to view list of offers
 	public void clickOfferTab () {
-		clickBt(offersBt);
+		clickBt(offersTapBt);
 	}
 	
 	// to add location on map
 	public void clickMap () {
-		clickBt(mapBt);
+		clickBt(mapTapBt);
 	}
 
 }
