@@ -1,4 +1,4 @@
-package asala.mobile.android;
+package asala.page;
 
 import org.openqa.selenium.WebElement;
 
@@ -22,11 +22,13 @@ public class AsalaRewardPage extends AsalaPageBase {
 	@AndroidFindBy(id = "")
 	WebElement storesToRedeemFromBt;
 
+	// method to click on point history
 	public void clickPointHistory () {
 
 		clickBt(pointHistoryBt);
 	}
 
+	// method to click on Stores To Redeem From
 	public void clickStoresToRedeemFrom () {
 
 		clickBt(storesToRedeemFromBt);

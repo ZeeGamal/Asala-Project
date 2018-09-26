@@ -1,4 +1,4 @@
-package asala.mobile.android;
+package asala.page;
 
 import org.openqa.selenium.WebElement;
 
