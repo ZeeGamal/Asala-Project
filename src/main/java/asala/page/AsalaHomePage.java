@@ -13,13 +13,13 @@ public class AsalaHomePage extends AsalaPageBase {
 
 	// this element for navigation bar
 	@AndroidFindBy(id = "")
-	WebElement RewardsBt;
+	public WebElement RewardsBt;
 
 	@AndroidFindBy(id = "")
-	WebElement userBt;
+	public WebElement userBt;
 
 	@AndroidFindBy(id = "")
-	WebElement settingBt;
+	public WebElement settingBt;
 
 	// this elements for mall card 
 	@AndroidFindBy(id = "")

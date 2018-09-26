@@ -13,17 +13,24 @@ public class AsalaPointHistoryPage extends AsalaPageBase {
 	}
 	
 	@AndroidFindBy(id = "")
-	WebElement earningBt;
+	public WebElement backBt;
+	
+	@AndroidFindBy(id = "")
+	WebElement earningTabBt;
 
 	@AndroidFindBy(id = "")
-	WebElement redeemBt;
+	WebElement redeemTabBt;
 	
 	public void clickEarning () {
-		clickBt(earningBt);
+		clickBt(earningTabBt);
 	}
 	
 	public void clickRedeem () {
-		clickBt(redeemBt);
+		clickBt(earningTabBt);
+	}
+	
+	public void clickBack () {
+		clickBt(backBt);
 	}
 
 }
