@@ -12,7 +12,7 @@ public class AsalaSettingsPage extends AsalaPageBase {
 		// TODO Auto-generated constructor stub
 	}
 	
-	// all elements 
+	// all elements for setting page
 	@AndroidFindBy(id = "")
 	public WebElement aboutBt;
 
@@ -24,6 +24,15 @@ public class AsalaSettingsPage extends AsalaPageBase {
 	
 	@AndroidFindBy(id = "")
 	public WebElement answerSurveyBt;
+	
+	@AndroidFindBy(id = "")
+	public WebElement termsConditionBt;
+	
+	@AndroidFindBy(id = "")
+	public WebElement languageBt;
+	
+	@AndroidFindBy(id = "")
+	public WebElement logoutBt;
 
 	public void clickAbout () {
 		clickBt(aboutBt);
@@ -39,6 +48,18 @@ public class AsalaSettingsPage extends AsalaPageBase {
 	
 	public void clickAnswerSurvey () {
 		clickBt(answerSurveyBt);
+	}
+	
+	public void clickTermesCondition () {
+		clickBt(termsConditionBt);
+	}
+	
+	public void clickLanguage () {
+		clickBt(languageBt);
+	}
+	
+	public void clickLogout () {
+		clickBt(logoutBt);
 	}
 
 }

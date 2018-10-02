@@ -47,4 +47,10 @@ public class AsalaProfileForFirstTimePage extends AsalaPageBase {
 		clickBt(saveBt);
 	}
 	
+	public void clickPhoto () {
+		clickBt(photoBt);
+	}
+	
+	
+	
 }
