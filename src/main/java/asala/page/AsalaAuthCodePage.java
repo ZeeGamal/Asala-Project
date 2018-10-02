@@ -57,9 +57,6 @@ public class AsalaAuthCodePage extends AsalaPageBase {
 	WebElement nineBt;
 	
 	@AndroidFindBy(id = "")
-	WebElement tenBt;
-	
-	@AndroidFindBy(id = "")
 	WebElement zeroBt;
 	
 	@AndroidFindBy(id = "")
@@ -127,10 +124,6 @@ public class AsalaAuthCodePage extends AsalaPageBase {
 		clickBt(nineBt);
 	}
 	
-	public void tenBtt () {
-
-		clickBt(tenBt);
-	}
 	
 	public void zeroBtt () {
 

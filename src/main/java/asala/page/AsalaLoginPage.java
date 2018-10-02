@@ -35,9 +35,15 @@ public class AsalaLoginPage extends AsalaPageBase {
 	}
 
 	// to make login 
-	public void login(String phone) {
+	public void enterText(String phone) {
 
 		setTxtElment(phonetxt, phone);
+	}
+	
+	// click login 
+	
+	public void clickLogin () {
+		
 		clickBt(loginBt);
 	}
 	

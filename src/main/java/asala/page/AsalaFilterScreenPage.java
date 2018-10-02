@@ -42,9 +42,6 @@ public class AsalaFilterScreenPage extends AsalaPageBase {
 	WebElement applyBt;
 
 
-	@AndroidFindBy(id = "")
-	WebElement mapBt;
-
 	// cancel & reset action
 	public void clickCancel () {
 		clickBt(cancelBt);
